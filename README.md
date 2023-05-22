@@ -6,28 +6,28 @@
 
 The first thing you should create is a very basic application with a database that can handle the following:
 
-- [ ] It should be possible to store people with basic information about them, such as name and phone number.
-- [ ] The system should be able to store an unlimited number of interests that a person has. Each interest should have a title and a short description.
-- [ ] Each person can be associated with any number of interests.
-- [ ] It should be possible to store an unlimited number of links (to websites) for each interest of each person. So, if a person adds a link, it is associated with both that person and the interest.
+- [x] It should be possible to store people with basic information about them, such as name and phone number.
+- [x] The system should be able to store an unlimited number of interests that a person has. Each interest should have a title and a short description.
+- [x] Each person can be associated with any number of interests.
+- [x] It should be possible to store an unlimited number of links (to websites) for each interest of each person. So, if a person adds a link, it is associated with both that person and the interest.
 
 
 ## 🗣 **Create a REST API**
 
 The second step is to create a REST API that allows external services to make the following requests to your API and implement these changes in your application.
 
-- [ ] Get all the people in the system.
-- [ ] Get all the interests associated with a specific person.
-- [ ] Get all the links associated with a specific person.
-- [ ] Associate a person with a new interest.
-- [ ] Add new links for a specific person and a specific interest.
+- [x] Get all the people in the system.
+- [x] Get all the interests associated with a specific person.
+- [x] Get all the links associated with a specific person.
+- [x] Associate a person with a new interest.
+- [x] Add new links for a specific person and a specific interest.
 
 ---
 
 ## **Extra Challenge (optional)**
 
-- [ ] Provide the ability for the API caller, when requesting a person, to directly retrieve all the interests and links for that person in a hierarchical JSON file.
-- [ ] Allow the API caller to filter the retrieved data, similar to a search. For example, if I include "to" in the request to retrieve all people, I want to receive those with "to" in their names, such as "tobias" or "tomas". You can implement this for all the requests if you like.
+- [x] Provide the ability for the API caller, when requesting a person, to directly retrieve all the interests and links for that person in a hierarchical JSON file.
+- [x] Allow the API caller to filter the retrieved data, similar to a search. For example, if I include "to" in the request to retrieve all people, I want to receive those with "to" in their names, such as "tobias" or "tomas". You can implement this for all the requests if you like.
 - [ ] Implement pagination for the requests. For example, when requesting people, I might get the first 100 people and then make additional requests to get more. It would be nice if the request also specifies the number of people to be returned in a single request, so I can choose to receive, let's say, 10 if I only want that many.
 
 #
